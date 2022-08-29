@@ -237,9 +237,10 @@
 
 .footer {
   background-color: #1f1f1f;
-  min-height: 350px;
+  min-height: 250px;
   padding-top: 60px;
   padding-bottom: 40px;
+  display: flex;
 }
 
 .footer__columns {
@@ -252,22 +253,26 @@
 .footer__column_content_copyright {
   flex-basis: 711px;
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .logo_place_footer {
-
+  background-image: url(../images/logo_place_footer.svg);
 }
 
 .footer__author {
   margin: 18px 0;
-}
-
-.footer__column_content_info {
-
+  line-height: 25px;
+  font-size: 18px;
+  color: white;
 }
 
 .footer__column-heading {
-
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
 }
 
 .footer__column-links {
@@ -277,13 +282,13 @@
 }
 
 .footer__column-link {
-
-}
-
-.footer__column_content_social {
-
+  line-height: 30px;
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+  display: flex;
 }
 
 .footer__social-icon {
-
+  margin-right: 10px;
 }
