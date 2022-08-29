@@ -51,6 +51,7 @@
   font-size: 18px;
   font-weight: normal;
   padding: 0;
+  margin: 0;
 }
 
 .header__link {
@@ -164,7 +165,7 @@
 
 .table__text {
   margin: 20px 0 0 0;
-  line-height: 1.12;
+  line-height: 1.2;
   font-size: 18px;
 }
 
@@ -187,7 +188,6 @@
   line-height: 1.15;
   font-size: 120px;
   font-weight: 600;
-  
 }
 
 .feynman__subtitle {
@@ -217,10 +217,12 @@
 
 .section-title_theme_dark {
   color: #fff;
+  z-index: 1;
 }
 
 .section-subtitle_theme_dark {
   color: #fff;
+  z-index: 1;
 }
 
 .table__cell_theme_dark {
