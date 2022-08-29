@@ -297,11 +297,11 @@
   text-decoration: none;
   color: #fff;
   display: flex;
+  align-items: center;
 }
 
 .footer__social-icon {
   margin-right: 10px;
   width: 16px;
   height: 16px;
-  align-items: center;
 }
