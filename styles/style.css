@@ -218,11 +218,13 @@
 .section-title_theme_dark {
   color: #fff;
   z-index: 1;
+  position: relative;
 }
 
 .section-subtitle_theme_dark {
   color: #fff;
   z-index: 1;
+  position: relative;
 }
 
 .table__cell_theme_dark {
